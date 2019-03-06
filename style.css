@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+* { box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+
+body {
+	font-family: 'Kanit', sans-serif;
+	font-size: 14px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.activity {
+	margin: 30px;
+}
+
+.top {
+	margin: 0 auto;
+}
+
+.top h1 {
+	text-align: center;
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+.top >p {
+	font-size: 18px;
+	text-align: center;
+	margin: 25px 250px 40px;
+}
+
+.top >hr {
+	width: 8%;
+	margin: 0 auto;
+	border: 1px solid green;
+}
+
+.orders, .trust, .availability {
+	text-align: center;
+}
+
+.numbers, .map, .ue {
+  display: flex;
+	align-items: center;
+  justify-content: flex-end;
+}
+
+.numbers h2 {
+	font-size: 60px;
+	color: green;
+}
+
+.numbers div {
+	margin: 70px;
+}
+
+.map p {
+	margin-right: 25px;
+}
+.map img {
+	width: 50%;
+	height: 50%;
+}
+
+.grant {
+	margin-left: 60px;
+	margin-top: 55px;
+
+}
+
+.grant hr {
+	margin-top: 12px;
+	width: 8%;
+	border: 1px solid green;
+}
+
+.grant p {
+	margin-top: 15px;
+}
+
+.grant h3{
+	color: green;
+}
