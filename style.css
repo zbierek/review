@@ -2,7 +2,7 @@
 
 * { box-sizing: border-box;
 	margin: 0;
-	padding:0;
+	padding: 0;
 }
 
 body {
@@ -18,10 +18,6 @@ body {
 
 .activity {
 	margin: 30px;
-}
-
-.top {
-	margin: 0 auto;
 }
 
 .top h1 {
