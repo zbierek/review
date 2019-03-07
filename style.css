@@ -84,3 +84,60 @@ body {
 .grant h3{
 	color: green;
 }
+
+/*MEDIA*/
+
+@media (max-width: 767px) {
+
+	.top >p {
+		font-size: 18px;
+		text-align: center;
+		margin: 20px auto;
+	}
+
+	.top >hr {
+		width: 20%;
+	}
+
+	.numbers, .map, .ue {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.numbers div {
+		margin: 25px;
+	}
+
+	.map {
+		margin-top: 35px;
+		text-align: center;
+	}
+
+	.map img {
+		width: 80%;
+		height: 80%;
+	}
+
+	.map p {
+		order: 1;
+		margin-top: 35px;
+		margin-right: 0;
+	}
+
+	.ue img {
+		order: 1;
+	}
+	.grant {
+		margin: 30px auto;
+		text-align: center;
+	}
+
+	.grant h3 {
+		text-align: center;
+	}
+
+	.grant hr {
+		display: none;
+	}
+
+}
