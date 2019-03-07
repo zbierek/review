@@ -88,13 +88,9 @@ body {
 /*MEDIA*/
 
 @media (max-width: 767px) {
-	.top {
-		margin: 0 auto;
-	}
 
 	.top >p {
 		font-size: 18px;
-		text-align: center;
 		margin: 20px auto;
 	}
 
