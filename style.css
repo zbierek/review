@@ -19,7 +19,9 @@ body {
 .activity {
 	margin: 30px;
 }
-
+.top {
+	margin: 0 auto;
+}
 .top h1 {
 	text-align: center;
 	font-size: 32px;
